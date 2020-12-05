@@ -10,7 +10,7 @@ body * {
 body {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/racing-background.png);
+    background-image: url(../img/background.webp);
     background-repeat: repeat-x;
     background-size: contain;
 }
@@ -24,10 +24,28 @@ body {
     background-position: bottom center;
     background-repeat: no-repeat;
     position: absolute;
-    left: 0;
-    transition: all 0.5s;
+    left: -200px;
+    transition: all 1s;
 }
 
+.car[data-model="bmw"] {
+    background-image: url(../img/bmw.png);
+}
+.car[data-model="ferrari"] {
+    background-image: url(../img/ferrari.png);
+}
+.car[data-model="green-beetle"] {
+    background-image: url(../img/green-beetle.png);
+}
+.car[data-model="lambo"] {
+    background-image: url(../img/lambo.png);
+}
+.car[data-model="tesla"] {
+    background-image: url(../img/tesla.png);
+}
+.car[data-model="moscvich"] {
+    background-image: url(../img/moscvich.png);
+}
 .car.car-1 {
     top: 40vh;
 }
@@ -49,13 +67,13 @@ body {
     border-left: none;
     border-right: none;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     font-size: 30px;
     color: #fff;
 }
 
     .line.finish {
-        left: 100%;
+        left: calc(100% - 10px);
         border-color: red;
         color: red;
     }
