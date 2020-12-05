@@ -8,4 +8,4 @@ Description..
 - max 2 players
 
 ### Link
-You can play this game https://laurako14.github.io/12-car-racing/
+You can play this game [https://laurako14.github.io/12-car-racing/] ( https://laurako14.github.io/12-car-racing/)
